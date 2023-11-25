@@ -1,0 +1,20 @@
+@media all {
+    body {
+        background-color: lightsteelblue;
+        color: royalblue;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    h1 {font-family:'Courier New', Courier, monospace;}
+    ul.navbar {
+        position: relative;
+        top: 10em;
+        left: 25em;
+        width: 10em;
+    }
+}
+@media print {
+    body {
+        color: navy;
+        background-color: aliceblue;
+    }
+}
